@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter, sans-serif;
+}
+body{
+  background-color: rgb(186, 230, 215);
+}
+.container{
+  max-width: 520px;
+  background-color: rgb(25, 25, 24);
+  border-radius: .3rem;
+  margin: 3rem auto;
+  color: antiquewhite;
+  overflow: hidden;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .8rem;
+  background: #21222A;
+}
+nav{
+  display: flex;
+  align-content: center;
+  width: 158px;
+  height: 28.93px;
+}
+.logo{
+  width: 28.93px;
+  height: 28.93px
+}
+.logo-text{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #DEEBF8; 
+}
+.logo-heading{
+  color: #61DAFB;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.2535px;
+  line-height: 27px;
+  padding-left: .4rem;
+}
+.main{
+  padding: 3.2rem 2.8rem;
+  background-color: #282D35;
+  color: #FFFFFF;
+  padding-bottom: 4.7rem;
+  position: relative;
+  background-image: url(../src/assets/reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.heading-main{
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  margin-bottom: 2rem;
+}
+ul > li{
+  line-height: 19px;
+  padding-bottom: .9rem;
+}
+ul li::before {
+  color: #61DAFB; /* set the color of the bullet */
+  content: "•"; /* use the Unicode character for a bullet */
+  margin-right: .7rem;
+  font-size: 1.6rem;
+}
+ul{
+  list-style: none;
+}
